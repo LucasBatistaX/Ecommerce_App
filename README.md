@@ -14,7 +14,7 @@ Este app foi criado com o intuito de:
 ---
 
 ## 🛠️ Tecnologias Utilizadas
-- **Flutter** (versão mais recente disponível)
+- **Flutter**
 - **Dart**
 - Widgets como: `Column`, `Row`, `ListView`, `GridView`, `Stack`, `Positioned`, `BottomNavigationBar`, entre outros
 
@@ -36,23 +36,26 @@ O app foi construído com foco em clareza e componentização.
 ```
 lib/
  ├── main.dart
- ├── screens/
- │    ├── home/
- │    │     ├── home_page.dart
- │    │     ├── widgets/
- │    │     │      ├── search_bar.dart
- │    │     │      ├── banner_promo.dart
- │    │     │      ├── category_list.dart
- │    │     │      ├── hot_sales.dart
- │    │     │      └── recently_viewed.dart
- │    ├── login/
- │    │     ├── login_page.dart
- │    │     └── widgets/
- │    │           └── promo_content.dart
- ├── utils/
- │    └── app_colors.dart
- └── widgets/
-       └── custom_button.dart
+ └── src/
+      ├── pages/
+      │     ├── home_page.dart
+      │     └── onboarding_page.dart
+      └── widgets/
+            ├── Home/
+            │     ├── category.dart
+            │     ├── display.dart
+            │     ├── scrollViewHotSales.dart
+            │     ├── scrollViewRecently.dart
+            │     ├── search.dart
+            │     ├── titleHotSales.dart
+            │     ├── titleRecently.dart
+            │     └── warning.dart
+            └── Onboarding/
+                  ├── button_login.dart
+                  ├── cyberlinio.dart
+                  ├── desconto.dart
+                  ├── header.dart
+                  └── middle.dart
 ```
 ---
 
@@ -84,3 +87,4 @@ flutter run
 
 ## 📄 Licença
 Este projeto foi criado apenas para fins de estudo e demonstração.
+
