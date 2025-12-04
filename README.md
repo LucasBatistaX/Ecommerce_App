@@ -21,7 +21,7 @@ Este app foi criado com o intuito de:
 ---
 
 ## 📱 Telas do App
-Inclua aqui as imagens das telas do app.
+<img src="Imagens/Login.jpg" width="350">
 
 ### 🏠 Home Page
 > Adicione a captura da tela inicial aqui.
