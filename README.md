@@ -21,14 +21,10 @@ Este app foi criado com o intuito de:
 ---
 
 ## 📱 Telas do App
-<img src="Imagens/Login.jpg" width="350">
+<img src="imagens/Login.jpg" width="200">
 
 ### 🏠 Home Page
-> Adicione a captura da tela inicial aqui.
-
-### 🔐 Tela de Promo/Login
-> Adicione aqui a imagem da tela promocional/login.
-
+<img src="imagens/tela1.jpg" width="200">
 ---
 
 ## 📂 Estrutura do Projeto (Widget Responsibility)
